@@ -54,7 +54,7 @@ async function makePrediction() {
         let storageInput = document.getElementById('storage').value;
 
         const results = await nn.predict({ cpu:parseInt(cpuInput), memory:parseInt(ramInput), storage:parseInt(storageInput) })
-        result.innerText = `Geschatte prijs: ${fmt.format(results[0].price)}`
+        result.innerText = `Predicted price: ${fmt.format(results[0].price)}`
 }
 
 function save() {
