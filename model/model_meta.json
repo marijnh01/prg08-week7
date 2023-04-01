@@ -1,0 +1,1 @@
+{"inputUnits":[3],"outputUnits":1,"inputs":{"cpu":{"dtype":"number","min":0,"max":2.7},"memory":{"dtype":"number","min":0,"max":128},"storage":{"dtype":"number","min":0,"max":6}},"outputs":{"price":{"dtype":"number","min":614,"max":4361}},"isNormalized":true}
